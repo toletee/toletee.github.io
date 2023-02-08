@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "/tutorials"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
