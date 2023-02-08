@@ -1,4 +1,4 @@
-{{ $baseURL := "/tutorials" -}}
+{{ $baseURL := "/" | absURL -}}
 
 {{ $dot := . -}}
 {{ $dot.Scratch.Set "path" "" -}}
