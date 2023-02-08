@@ -28,41 +28,94 @@
   identifier = "lorem"
   url = "/tutorial/lorem/"
 
-[[main]]
-  name = "Docs"
-  url = "/docs/prologue/introduction/"
+#[[main]]
+#  name = "Docs"
+#  url = "/docs/prologue/introduction/"
 # url = "/docs/1.0/prologue/introduction/"
-  weight = 10
+ # weight = 10
 
 # [[main]]
 #   name = "Tutorial"
 #   url = "/tutorial/lorem/ipsum/"
 #   weight = 15
 
+#[[main]]
+#  name = "Blog"
+#  url = "/blog/"
+#  weight = 20
+
+#[[main]]
+#  name = "Get Started"
+#  weight = 30
+#  identifier = "get-started"
+#  url = "/docs/prologue/introduction/"
+
+#[[main]]
+#  name = "Quick Start"
+#  weight = 40
+#  identifier = "quick-start"
+#  url = "/docs/prologue/quick-start/"
+#  parent = "get-started"
+
+#[[main]]
+#  name = "Tutorial"
+#  weight = 50
+#  identifier = "tutorial"
+#  url = "https://getdoks.org/tutorial/introduction/"
+#  parent = "get-started"
+
+####################################################################################
 [[main]]
-  name = "Blog"
-  url = "/blog/"
-  weight = 20
+ name = "Starter"
+ identifier = "starter"
+ weight = 10
 
 [[main]]
-  name = "Get Started"
-  weight = 30
-  identifier = "get-started"
-  url = "/docs/prologue/introduction/"
+ name = "HTML & CSS"
+ parent = "starter"
+ weight = 11
 
 [[main]]
-  name = "Quick Start"
-  weight = 40
-  identifier = "quick-start"
-  url = "/docs/prologue/quick-start/"
-  parent = "get-started"
+ name = "Git & Github"
+ parent = "starter"
+ weight = 12
 
 [[main]]
-  name = "Tutorial"
-  weight = 50
-  identifier = "tutorial"
-  url = "https://getdoks.org/tutorial/introduction/"
-  parent = "get-started"
+ name = "JavaScript"
+ identifier = "javascript"
+ weight = 20
+
+[[main]]
+ name = "JavaScript"
+ parent = "javascript"
+ weight = 20
+
+[[main]]
+ name = "ReactJS"
+  parent = "javascript"
+ weight = 21
+
+
+ [[main]]
+ name = "VueJS"
+  parent = "javascript"
+ weight = 40
+
+ [[main]]
+ name = "JavaScript"
+ identifier = "javascript"
+ weight = 20
+
+
+[[main]]
+ name = "PHP"
+ identifier = "php"
+ weight = 60
+
+
+
+
+####################################################################################
 
 [[social]]
   name = "GitHub"
