@@ -1,15 +1,14 @@
 ---
 title: "Version Control Flow"
-description: "Introducing Doks, a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
-excerpt: "Introducing Doks, a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
+description: "Using Git as a version control, below tutorial introduces how to manage the code production and version controlling."
 date: 2020-11-04T09:19:42+01:00
 lastmod: 2020-11-04T09:19:42+01:00
 draft: false
 weight: 10
 images: [git-flow-cover.webp]
-categories: ["News"]
-tags: ["security", "performance", "SEO"]
-contributors: ["Henk Verlinde"]
+categories: ["Tutorials"]
+tags: ["git", "version control", "project management"]
+contributors: ["Edgar Tolete"]
 pinned: false
 homepage: false
 ---
