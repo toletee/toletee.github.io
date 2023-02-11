@@ -4,7 +4,7 @@ description: "One page summary of how to start a new Doks project."
 lead: "One page summary of how to start a new Doks project."
 date: 2020-11-16T13:59:39+01:00
 lastmod: 2020-11-16T13:59:39+01:00
-draft: false
+draft: true
 images: []
 menu:
   docs:
@@ -34,7 +34,7 @@ Doks is available as a child theme and a starter theme.
 
 - Intended for novice to intermediate users
 - Intended for minor customizations
-- [Easily update npm packages]({{< relref "how-to-update" >}}) — __including__ [Doks](https://www.npmjs.com/package/@hyas/doks)
+- [Easily update npm packages]({{< relref "how-to-update" >}}) — **including** [Doks](https://www.npmjs.com/package/@hyas/doks)
 
 ```bash
 git clone https://github.com/h-enk/doks-child-theme.git my-doks-site
