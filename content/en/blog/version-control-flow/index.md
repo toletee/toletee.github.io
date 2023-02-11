@@ -1,8 +1,8 @@
 ---
 title: "Version Control Flow"
 description: "Using Git as a version control, below tutorial introduces how to manage the code production and version controlling."
-date: 2020-11-04T09:19:42+01:00
-lastmod: 2020-11-04T09:19:42+01:00
+date: 2023-01-11T09:19:42+01:00
+lastmod: 2023-01-11T09:19:42+01:00
 draft: false
 weight: 10
 images: [git-flow-cover.webp]
@@ -116,7 +116,7 @@ please note that revert will creates a new commit.
 
 ---
 
-after end of the day, update the remote repository for backup and as well as other developer might work on it. Please note that when pushing a local repository that do not have a remote repository, it will ask you to run 1 more command so please read the git notification.
+after end of the day, update the remote repository for backup and as well as other developer might work on it. Please note that when pushing a local repository that do not have a remote repository, it will ask you to run 1 more command so please read the git notification. If you already have existing branch, make sure you run `git pull` first before you push changes.
 
 ```sh
 git push
@@ -134,7 +134,7 @@ if you are not in the correct branch, switch to your branch.
 git switch feature_branch
 ```
 
-And also make sure that your codes are update.
+And also make sure that your codes are update whenever you are just starting to work with an existing branch.
 
 ```sh
 git pull
