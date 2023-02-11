@@ -6,7 +6,7 @@ date: 2020-11-04T09:19:42+01:00
 lastmod: 2020-11-04T09:19:42+01:00
 draft: false
 weight: 10
-images: [git-flow-cover.png]
+images: [git-flow-cover.webp]
 categories: ["News"]
 tags: ["security", "performance", "SEO"]
 contributors: ["Henk Verlinde"]
@@ -20,7 +20,7 @@ Below will be the command guidelines.
 
 ## Basic Control Flow
 
-![Version Control Flow](version-control-flow.jpg)
+![Version Control Flow](version-control-flow.webp)
 
 ### Guidelines
 
